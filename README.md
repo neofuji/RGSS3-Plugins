@@ -8,7 +8,7 @@
 ## システム系
 - [スキルタイプ別選択位置記憶](https://github.com/neofuji/RGSS3-Plugins/blob/master/system/last_skill.rb) v1.1
   - 最後に選択したスキルをスキルタイプ別に記憶します。
-----
+
 - [プレイ中画面OFF抑制](https://github.com/neofuji/RGSS3-Plugins/blob/master/system/display_required.rb) v1.0
   - プレイ中にディスプレイの電源が切れたりスクリーンセーバーが起動したりしないようにします。
   - ゲームパッドでのプレイや、長時間の放置を要する場合に有用です。
@@ -28,7 +28,7 @@
   - ステータスウィンドウに別のウィンドウが重なっても枠線を途切れなくします。
 - [戦闘勝利BGM](https://github.com/neofuji/RGSS3-Plugins/blob/master/battle/victory_bgm.rb) v1.0
   - 戦闘勝利時にMEの代わりにBGMを演奏します。
-----
+
 - [ドロップアイテム単一化](https://github.com/neofuji/RGSS3-Plugins/blob/master/battle/unique_dropitem.rb) v1.0
   - 同じ敵が複数ドロップしないようにします。
 - [戦闘敗北BGM](https://github.com/neofuji/RGSS3-Plugins/blob/master/battle/defeat_bgm.rb) v1.0
@@ -53,7 +53,7 @@
   - タイトル画面に任意の著作権表示を描画します。
 - [セーブ画面スクロール矢印表示](https://github.com/neofuji/RGSS3-Plugins/blob/master/menu/save_arrow.rb) v1.0
   - セーブ画面とロード画面にスクロール用矢印を表示します。
-----
+
 - [スナップショット自動解放](https://github.com/neofuji/RGSS3-Plugins/blob/master/menu/dispose_snapshot.rb) v1.0
   - メニューの背景に使用されるスナップショットを適当なタイミングで解放します。
   - マップや戦闘でのメモリ使用量が 1 MB ほど削減できます。
@@ -63,7 +63,7 @@
   - 乗り物に乗っている状態で場所移動したときのBGM自動切り替えを禁止します。
 - [テストプレイ機能無効化](https://github.com/neofuji/RGSS3-Plugins/blob/master/map/disable_testplay.rb) v1.0
   - `$TEST` に依存する処理を取り除き、テストプレイ機能を完全に無効化します。チート対策に。
-----
+
 - [ロード後マップ名表示](https://github.com/neofuji/RGSS3-Plugins/blob/master/map/loaded_mapname.rb) v1.0
   - ロード後にマップ名を表示します。
 
