@@ -48,6 +48,9 @@
   - 乗り物に乗っている状態で場所移動したときのBGM自動切り替えを禁止します。
 - [テストプレイ機能無効化](https://github.com/neofuji/RGSS3-Plugins/blob/master/map/disable_testplay.rb) v1.0
   - `$TEST` に依存する処理を取り除き、テストプレイ機能を完全に無効化します。チート対策に。
+----
+- [ロード後マップ名表示](https://github.com/neofuji/RGSS3-Plugins/blob/master/map/loaded_mapname.rb) v1.0
+  - ロード後にマップ名を表示します。
 
 ## イベント系
 - [タイマー一時停止](https://github.com/neofuji/RGSS3-Plugins/blob/master/event/timer_resume.rb) v1.0
