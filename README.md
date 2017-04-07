@@ -24,6 +24,9 @@
   - ステータスウィンドウに別のウィンドウが重なっても枠線を途切れなくします。
 - [戦闘勝利BGM](https://github.com/neofuji/RGSS3-Plugins/blob/master/battle/victory_bgm.rb) v1.0
   - 戦闘勝利時にMEの代わりにBGMを演奏します。
+----
+- [ドロップアイテム単一化](https://github.com/neofuji/RGSS3-Plugins/blob/master/battle/unique_dropitem.rb) v1.0
+  - 同じ敵が複数ドロップしないようにします。
 
 ## メニュー系
 - [プロフィールをスクロール](https://github.com/neofuji/RGSS3-Plugins/blob/master/menu/profile_scroll.rb) v2.0
