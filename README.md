@@ -53,6 +53,10 @@
   - タイトル画面に任意の著作権表示を描画します。
 - [セーブ画面スクロール矢印表示](https://github.com/neofuji/RGSS3-Plugins/blob/master/menu/save_arrow.rb) v1.0
   - セーブ画面とロード画面にスクロール用矢印を表示します。
+----
+- [スナップショット自動解放](https://github.com/neofuji/RGSS3-Plugins/blob/master/menu/dispose_snapshot.rb) v1.0
+  - メニューの背景に使用されるスナップショットを適当なタイミングで解放します。
+  - マップや戦闘でのメモリ使用量が 1 MB ほど削減できます。
 
 ## マップ系
 - [乗船中のBGM自動切り替え禁止](https://github.com/neofuji/RGSS3-Plugins/blob/master/map/riding_nonautoplay.rb) v1.0
