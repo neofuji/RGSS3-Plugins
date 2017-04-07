@@ -8,6 +8,10 @@
 ## システム系
 - [スキルタイプ別選択位置記憶](https://github.com/neofuji/RGSS3-Plugins/blob/master/system/last_skill.rb) v1.1
   - 最後に選択したスキルをスキルタイプ別に記憶します。
+----
+- [プレイ中画面OFF抑制](https://github.com/neofuji/RGSS3-Plugins/blob/master/system/display_required.rb) v1.0
+  - プレイ中にディスプレイの電源が切れたりスクリーンセーバーが起動したりしないようにします。
+  - ゲームパッドでのプレイや、長時間の放置を要する場合に有用です。
 
 ## バトル系
 - [バトルで自分を優先選択](https://github.com/neofuji/RGSS3-Plugins/blob/master/battle/select_me.rb) v1.1
