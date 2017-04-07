@@ -33,6 +33,8 @@
   - 同じ敵が複数ドロップしないようにします。
 - [戦闘敗北BGM](https://github.com/neofuji/RGSS3-Plugins/blob/master/battle/defeat_bgm.rb) v1.0
   - 戦闘敗北時にBGMを演奏します。
+- [メニューのみのスキル戦闘時非表示](https://github.com/neofuji/RGSS3-Plugins/blob/master/battle/exclude_menuskill.rb) v1.0
+  - メニューのみ使用可能のスキルを戦闘画面から除外します。
 
 ## メニュー系
 - [プロフィールをスクロール](https://github.com/neofuji/RGSS3-Plugins/blob/master/menu/profile_scroll.rb) v2.0
