@@ -68,3 +68,6 @@
   - タイマー停止後、0分0秒のタイマーを始動することで再開できるようにします。
 + [ゲームオーバー中央揃え](https://github.com/neofuji/RGSS3-Plugins/blob/master/event/center_gameover.rb) v1.0
   + ゲームオーバー画面で画面サイズと異なる画像を中央揃えにします。
++ [数値入力キャンセル](https://github.com/neofuji/RGSS3-Plugins/blob/master/event/num_cancel.rb) v1.0
+  + 名前に `?` を含む変数に対する数値入力の処理をキャンセルできるようにします。
+  + キャンセルした場合、`-1 - 入力した数値`がその変数に格納されます。
