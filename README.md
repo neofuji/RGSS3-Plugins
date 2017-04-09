@@ -33,6 +33,8 @@
   + 戦闘敗北時にBGMを演奏します。
 + [メニューのみのスキル戦闘時非表示](https://github.com/neofuji/RGSS3-Plugins/blob/master/battle/exclude_menuskill.rb) v1.0
   + メニューのみ使用可能のスキルを戦闘画面から除外します。
++ [レベルアップ能力値表示](https://github.com/neofuji/RGSS3-Plugins/blob/master/battle/display_paramup.rb) v1.0
+  + アクターがレベルアップしたとき、各能力値の上昇量を表示します。
 
 ## メニュー系
 - [プロフィールをスクロール](https://github.com/neofuji/RGSS3-Plugins/blob/master/menu/profile_scroll.rb) v2.0
