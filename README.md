@@ -66,7 +66,7 @@
   + ロード後にマップ名を表示します。
 
 ## イベント系
-- [タイマー一時停止](https://github.com/neofuji/RGSS3-Plugins/blob/master/event/timer_resume.rb) v1.0
+- [タイマー一時停止](https://github.com/neofuji/RGSS3-Plugins/blob/master/event/timer_resume.rb) v1.1
   - タイマー停止後、0分0秒のタイマーを始動することで再開できるようにします。
 + [ゲームオーバー中央揃え](https://github.com/neofuji/RGSS3-Plugins/blob/master/event/center_gameover.rb) v1.0
   + ゲームオーバー画面で画面サイズと異なる画像を中央揃えにします。
