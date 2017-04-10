@@ -11,6 +11,9 @@
 + [プレイ中画面OFF抑制](https://github.com/neofuji/RGSS3-Plugins/blob/master/system/display_required.rb) v1.0
   + プレイ中にディスプレイの電源が切れたりスクリーンセーバーが起動したりしないようにします。
   + ゲームパッドでのプレイや、長時間の放置を要する場合に有用です。
++ [アニメーション別速度設定](https://github.com/neofuji/RGSS3-Plugins/blob/master/system/animation_rate.rb) v1.0
+  + アニメーションの名前に `%2` のように数値を指定すると、アニメーションの速度をその数値で置き換えます。
+  + 数値が小さいほどアニメーションは速く再生されます。
 
 ## バトル系
 - [バトルで自分を優先選択](https://github.com/neofuji/RGSS3-Plugins/blob/master/battle/select_me.rb) v1.1
