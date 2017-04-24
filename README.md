@@ -29,7 +29,7 @@
   + 同じ敵が複数ドロップしないようにします。
 + [戦闘敗北BGM](/battle/defeat_bgm.rb) v1.0
   + 戦闘敗北時にBGMを演奏します。
-+ [逃走回数の記録【RPGMVバックポート】](/battle/escape_count.rb) v1.0
++ [逃走回数の記録【RPGMVバックポート】](/battle/escape_count.rb) v1.1
   + 逃走回数を記録します。
   + イベントコマンド［変数の操作］にて逃走回数を取得するには、オペランドにスクリプト `$game_system.escape_count` を指定します。
 + [勝利回数の記録【RPGMVバックポート】](/battle/win_count.rb) v1.0
