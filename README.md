@@ -32,6 +32,9 @@
 + [逃走回数の記録【RPGMVバックポート】](/battle/escape_count.rb) v1.0
   + 逃走回数を記録します。
   + イベントコマンド［変数の操作］にて逃走回数を取得するには、オペランドにスクリプト `$game_system.escape_count` を指定します。
++ [勝利回数の記録【RPGMVバックポート】](/battle/win_count.rb) v1.0
+  + 勝利回数を記録します。
+  + イベントコマンド［変数の操作］にて勝利回数を取得するには、オペランドにスクリプト `$game_system.win_count` を指定します。
 
 ## バトル系/画面表示
 - [バトルで自分を優先選択](/battle/select_me.rb) v1.1
