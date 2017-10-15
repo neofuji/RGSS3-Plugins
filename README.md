@@ -23,8 +23,10 @@
   - 特定のタイミングでステートを自動的に付加・解除する特徴を作ります。
 - [逃走不能特徴](/battle/escape_feature.rb) v1.0
   - 逃走できなくなる特徴を作ります。
-- [戦闘勝利BGM](/battle/victory_bgm.rb) v1.0
-  - 戦闘勝利時にMEの代わりにBGMを演奏します。
+- [戦闘勝利BGM](/battle/victory_bgm.rb) v2.0
+  - 戦闘勝利時、ME 演奏後に BGM を演奏します。
+  - ME は演奏せず BGM のみを演奏する場合、別途 ME を `(なし)` に設定してください。
+  - 逆に BGM のファイル名を `""` (なし) に設定すると、ME 演奏後無音にできます。
 + [ドロップアイテム単一化](/battle/unique_dropitem.rb) v1.0
   + 同じ敵が複数ドロップしないようにします。
 + [戦闘敗北BGM](/battle/defeat_bgm.rb) v1.0

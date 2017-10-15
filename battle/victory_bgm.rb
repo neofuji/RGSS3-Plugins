@@ -1,10 +1,12 @@
 #==============================================================================
-# ■ 戦闘勝利BGM RGSS3 v1.0                       MIT License; see git.io/tic
+# ■ 戦闘勝利BGM RGSS3 v2.0                       MIT License; see git.io/tic
 #------------------------------------------------------------------------------
-# 　戦闘勝利時にMEの代わりにBGMを演奏します。イベントコマンド「スクリプト」に
+# 　戦闘勝利時、ME 演奏後に BGM を演奏します。イベントコマンド［スクリプト］に
 # $game_system.battle_victory_bgm =
 #   RPG::BGM.new("ファイル名", ボリューム, ピッチ)
-# と記述することで戦闘勝利BGMをゲーム中に変更することもできます。
+# と記述することで戦闘勝利 BGM をゲーム中に変更することもできます。
+# ME は演奏せず BGM のみを演奏する場合、別途 ME を (なし) に設定してください。
+# 逆に BGM のファイル名を "" (なし) に設定すると、ME 演奏後無音にできます。
 #==============================================================================
 
 class Game_System
@@ -39,10 +41,10 @@ class << BattleManager
   # ● 勝利の処理【※再定義※】
   #--------------------------------------------------------------------------
   def process_victory
+    play_battle_end_me
     if $game_system.battle_victory_bgm
       $game_system.battle_victory_bgm.play
     else
-      play_battle_end_me
       replay_bgm_and_bgs
     end
     $game_message.add(sprintf(Vocab::Victory, $game_party.name))
