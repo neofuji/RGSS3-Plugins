@@ -1,5 +1,5 @@
 #==============================================================================
-# ■ 文章途中で顔グラフィック変更 RGSS3 v1.0      MIT License; see git.io/tic
+# ■ 文章途中で顔グラフィック変更 RGSS3 v1.1      MIT License; see git.io/tic
 #------------------------------------------------------------------------------
 # 　［文章の表示］の途中、任意の時点で顔グラフィックを変更できるようにします。
 # 例えば文章中に \F[1] と入力するとその時点で表示されているファイルの 1 番目の
@@ -17,8 +17,9 @@ class Window_Message
   def process_escape_character(code, text, pos)
     case code.upcase
     when 'F'
+      $game_message.face_index = obtain_escape_param(text) - 1
       contents.clear_rect(0, 0, 96, 96)
-      draw_face($game_message.face_name, obtain_escape_param(text) - 1, 0, 0)
+      draw_face($game_message.face_name, $game_message.face_index, 0, 0)
     else
       tic_process_escape_character
     end
