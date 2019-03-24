@@ -1,4 +1,6 @@
 # RGSS3-Plugins
+[![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+
 私が過去に某所で公開していたRGSS3素材をこのたび再公開することになりました。RPGツクールVX Aceで使用できます。
 
 RPGツクールMVのプラグイン→[RPGMV-Plugins](https://git.io/tmv)
