@@ -112,3 +112,6 @@ RPGツクールMVのプラグイン→[RPGMV-Plugins](https://git.io/tmv)
   + キャンセルした場合、`-1 - 入力した数値`がその変数に格納されます。
 + [文章途中で顔グラフィック変更](/event/change_face_image_in_text.rb) v1.2 / ChangeFaceImageInText
   + ［文章の表示］の途中、任意の時点で顔グラフィックを変更できるようにします。
+
+## Author
+[Toru Higuruma](https://github.com/neofuji)
