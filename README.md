@@ -23,6 +23,8 @@ RPGツクールMVのプラグイン→[RPGMV-Plugins](https://git.io/tmv)
   + 例えば HP が満タンでレベルアップすれば、最大 HP が増えても満タンのままです。
 + [ウィンドウ開閉の加減速](/system/accelerate_openness.rb) v1.0 / AccelerateWindowOpenness
   + すべてのウィンドウの開閉アニメーションを加減速させます。
++ [戦闘テストのクラウド同期抑制](/system/drop_btest_database.rb) v1.0
+  + 戦闘テスト開始時に生成されるデータベースのファイル名を改名し、OneDrive や Dropbox などのクラウドストレージへ自動的にアップロードされないようにします。
 
 ## バトル系/システム
 - [ステート自動付加・解除特徴](/battle/state_feature.rb) v2.0
