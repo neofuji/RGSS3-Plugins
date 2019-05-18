@@ -6,7 +6,7 @@ RPGツクールVX Ace向けに作成した簡単なプラグイン（RGSS3素材
 
 RPGツクールMV向けプラグイン→[RPGMV-Plugins](https://git.io/tmv)
 
-## システム系
+## 🎮システム系
 - [スキルタイプ別選択位置記憶](/system/last_skill.rb) v1.1 / RememberSkillByType
   - 最後に選択したスキルをスキルタイプ別に記憶します。
 + [プレイ中画面OFF抑制](/system/display_required.rb) v1.0
@@ -23,7 +23,7 @@ RPGツクールMV向けプラグイン→[RPGMV-Plugins](https://git.io/tmv)
 + [戦闘テストのクラウド同期抑制](/system/drop_btest_database.rb) v1.0
   + 戦闘テスト開始時に生成されるデータベースのファイル名を改名し、OneDrive や Dropbox などのクラウドストレージへ自動的にアップロードされないようにします。
 
-## バトル系/システム
+## ⚔バトル系/システム
 - [ステート自動付加・解除特徴](/battle/state_feature.rb) v2.0
   - 特定のタイミングでステートを自動的に付加・解除する特徴を作ります。
 - [逃走不能特徴](/battle/escape_feature.rb) v1.0 / SealEscapeCommand
@@ -43,7 +43,7 @@ RPGツクールMV向けプラグイン→[RPGMV-Plugins](https://git.io/tmv)
 + [全体攻撃の適用順シャッフル](/battle/shuffle_targets.rb) v1.0
   + 効果範囲が全体のスキル／アイテムのメモ欄に `<shuffle_targets>` と記入すると、通常先頭のバトラーから順となっている効果適用順序をランダムに変化させます。
 
-## バトル系/画面表示
+## ⚔バトル系/画面表示
 - [バトルで自分を優先選択](/battle/select_me.rb) v1.1 / InitTargetActorToUser
   - スキル・アイテムの対象アクター選択のカーソル初期位置をその使用者にします。
 - [封印済スキルコマンドを無効化](/battle/sealed_skillcommand.rb) v1.1 / DisableSealedSkillCommand
@@ -63,7 +63,7 @@ RPGツクールMV向けプラグイン→[RPGMV-Plugins](https://git.io/tmv)
 + [スキルの使用時メッセージ修正【RPGMVバックポート】](/battle/skill_message.rb) v1.0
   + スキルの使用時メッセージ 1 行目を空にすると、使用者の名前を非表示にします。
 
-## メニュー系
+## 🎛メニュー系
 - [【ステータス】プロフィールをスクロール](/menu/profile_scroll.rb) v2.0
   - 3行以上のプロフィールに対応し、上下スクロールを可能にします。
 - [【ショップ】ショップの個数入力を快適化](/menu/shop_number.rb) v1.2 / WraparoundShopNum
@@ -86,7 +86,7 @@ RPGツクールMV向けプラグイン→[RPGMV-Plugins](https://git.io/tmv)
 + [【タイトル】初回起動時タイトルスキップ](/menu/skip_first_title.rb) v1.1 / SkipFirstTitle
   + セーブファイルが存在しない場合、タイトル画面を表示せずニューゲームします。
 
-## マップ系
+## 🗺マップ系
 - [乗船中のBGM自動切り替え禁止](/map/riding_nonautoplay.rb) v1.0
   - 乗り物に乗っている状態で場所移動したときのBGM自動切り替えを禁止します。
 - [テストプレイ機能無効化](/map/disable_testplay.rb) v1.0
@@ -98,7 +98,7 @@ RPGツクールMV向けプラグイン→[RPGMV-Plugins](https://git.io/tmv)
 + [遠景床【RPGMVバックポート】](/map/zero_parallax.rb) v1.0
   + ファイル名が `!` で始まる遠景を床（視差ゼロ）として扱うようにします。
 
-## イベント系
+## 💬イベント系
 - [タイマー一時停止](/event/timer_resume.rb) v1.1
   - タイマー停止後、0分0秒のタイマーを始動することで再開できるようにします。
 + [ゲームオーバー中央揃え](/event/center_gameover.rb) v1.0 / CenterGameoverImage
