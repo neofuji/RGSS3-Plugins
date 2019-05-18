@@ -1,13 +1,10 @@
 # RGSS3-Plugins
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-私が過去に某所で公開していたRGSS3素材をこのたび再公開することになりました。RPGツクールVX Aceで使用できます。
-
-RPGツクールMVのプラグイン→[RPGMV-Plugins](https://git.io/tmv)
-
-## 利用規約
+RPGツクールVX Ace向けに作成した簡単なプラグイン（RGSS3素材）です。
 [MIT License](/LICENSE)に従ってお使いください。
-なお、**サポートは一切行っておりません**。
+
+RPGツクールMV向けプラグイン→[RPGMV-Plugins](https://git.io/tmv)
 
 ## システム系
 - [スキルタイプ別選択位置記憶](/system/last_skill.rb) v1.1 / RememberSkillByType
@@ -111,6 +108,12 @@ RPGツクールMVのプラグイン→[RPGMV-Plugins](https://git.io/tmv)
   + キャンセルした場合、`-1 - 入力した数値`がその変数に格納されます。
 + [文章途中で顔グラフィック変更](/event/change_face_image_in_text.rb) v1.2 / ChangeFaceImageInText
   + ［文章の表示］の途中、任意の時点で顔グラフィックを変更できるようにします。
+
+## 免責事項
+プログラムの性質上、他者のプラグインと組み合わせると機能の一部もしくは全部が正常動作しなくなる場合があります。
+その場合はプラグインの導入順や設定の変更などを行って解決するかお試しください。
+
+**あらゆる環境において全機能が期待どおり動作する保証は致しかねます**。予めご了承の上ご利用ください。
 
 ## Author
 [Toru Higuruma](https://github.com/neofuji)
