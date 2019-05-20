@@ -22,6 +22,8 @@ RPGツクールMV向けプラグイン→[RPGMV-Plugins](https://git.io/tmv)
   - すべてのウィンドウの開閉アニメーションを加減速させます。
 - [戦闘テストのクラウド同期抑制](/system/drop_btest_database.rb) v1.0 (2019-04-01)
   - 戦闘テスト開始時に生成されるデータベースのファイル名を改名し、OneDrive や Dropbox などのクラウドストレージへ自動的にアップロードされないようにします。
+- [システム効果音のプリロード【RPGMVバックポート】](/system/preload_important_sounds.rb) v1.0 (2019-05-21)
+  - 決定音などをゲーム起動時にあらかじめロードし、演奏の遅延を小さくします。
 
 ## ⚔バトル系/システム
 - [ステート自動付加・解除特徴](/battle/state_feature.rb) v2.0
