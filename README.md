@@ -20,8 +20,6 @@ RPGツクールMV向けプラグイン→[RPGMV-Plugins](https://git.io/tmv)
   - 例えば HP が満タンでレベルアップすれば、最大 HP が増えても満タンのままです。
 - [ウィンドウ開閉の加減速](/system/accelerate_openness.rb) v1.0 (2019-03-18) / AccelerateWindowOpenness
   - すべてのウィンドウの開閉アニメーションを加減速させます。
-- [戦闘テストのクラウド同期抑制](/system/drop_btest_database.rb) v1.0 (2019-04-01)
-  - 戦闘テスト開始時に生成されるデータベースのファイル名を改名し、OneDrive や Dropbox などのクラウドストレージへ自動的にアップロードされないようにします。
 - [システム効果音のプリロード【RPGMVバックポート】](/system/preload_important_sounds.rb) v1.0 (2019-05-21)
   - 決定音などをゲーム起動時にあらかじめロードし、演奏の遅延を小さくします。
 
@@ -91,8 +89,6 @@ RPGツクールMV向けプラグイン→[RPGMV-Plugins](https://git.io/tmv)
 ## 🗺マップ系
 - [乗船中のBGM自動切り替え禁止](/map/riding_nonautoplay.rb) v1.0
   - 乗り物に乗っている状態で場所移動したときのBGM自動切り替えを禁止します。
-- [テストプレイ機能無効化](/map/disable_testplay.rb) v1.0
-  - `$TEST` に依存する処理を取り除き、テストプレイ機能を完全に無効化します。チート対策に。
 - [ロード後マップ名表示](/map/loaded_mapname.rb) v1.0 (2017-04-07) / MapNameAfterLoad
   - ロード後にマップ名を表示します。
 - [場所移動後のマップ名表示修正](/map/name_display.rb) v1.0 (2017-04-22)
@@ -110,6 +106,12 @@ RPGツクールMV向けプラグイン→[RPGMV-Plugins](https://git.io/tmv)
   - キャンセルした場合、`-1 - 入力した数値`がその変数に格納されます。
 - [文章途中で顔グラフィック変更](/event/change_face_image_in_text.rb) v1.2 (2019-01-11) / ChangeFaceImageInText
   - ［文章の表示］の途中、任意の時点で顔グラフィックを変更できるようにします。
+
+## 🦋デバッグ系
+- [テストプレイ機能無効化](/map/disable_testplay.rb) v1.0
+  - `$TEST` に依存する処理を取り除き、テストプレイ機能を完全に無効化します。チート対策に。
+- [戦闘テストのクラウド同期抑制](/system/drop_btest_database.rb) v1.0 (2019-04-01)
+  - 戦闘テスト開始時に生成されるデータベースのファイル名を改名し、OneDrive や Dropbox などのクラウドストレージへ自動的にアップロードされないようにします。
 
 ## 免責事項
 プログラムの性質上、他者のプラグインと組み合わせると機能の一部もしくは全部が正常動作しなくなる場合があります。
