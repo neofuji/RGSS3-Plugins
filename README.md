@@ -4,7 +4,7 @@
 RPGツクールVX Ace向けに作成した簡単なプラグイン（RGSS3素材）です。
 [MIT License](/LICENSE)に従ってお使いください。
 
-RPGツクールMV向けプラグイン→[RPGMV-Plugins](https://git.io/tmv)
+RPGツクールMV向けプラグイン→[RPGMV-Plugins](https://git.io/tmv)  
 RPGツクールMZ向けプラグイン→[RPGMZ-Plugins](https://github.com/neofuji/RPGMZ-Plugins)
 
 ## 🎮システム系
