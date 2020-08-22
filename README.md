@@ -5,6 +5,7 @@ RPGツクールVX Ace向けに作成した簡単なプラグイン（RGSS3素材
 [MIT License](/LICENSE)に従ってお使いください。
 
 RPGツクールMV向けプラグイン→[RPGMV-Plugins](https://git.io/tmv)
+RPGツクールMZ向けプラグイン→[RPGMZ-Plugins](https://github.com/neofuji/RPGMZ-Plugins)
 
 ## 🎮システム系
 - [スキルタイプ別選択位置記憶](/system/last_skill.rb) v1.1 / RememberSkillByType
